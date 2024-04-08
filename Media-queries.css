@@ -1,0 +1,557 @@
+@media screen and (min-width: 360px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    flex-wrap: nowrap;
+    align-items: center;
+    text-align: center;
+    font-family: poppins;
+  }
+  .container .p1 {
+    margin-top: 2.5rem;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+  }
+  .container .pi {
+    font-size: 3rem;
+  }
+  .container .pii {
+    margin-top: 0.5rem;
+    font-size: 3rem;
+  }
+  .container .p2 {
+    margin-top: 2.5rem;
+    font-size: 1.5rem;
+  }
+  .container .p3 {
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+  }
+}
+@media screen and (min-width: 418px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    flex-wrap: nowrap;
+    align-items: center;
+    text-align: center;
+  }
+  .container img {
+    width: 200px;
+    margin-bottom: 0rem;
+  }
+  .container .p1 {
+    margin-top: 2.5rem;
+    margin-bottom: 1.5rem;
+    font-size: 2.5rem;
+  }
+  .container .pi {
+    font-size: 3rem;
+  }
+  .container .pii {
+    margin-top: 0.5rem;
+    font-size: 3rem;
+  }
+  .container .p2 {
+    margin-top: 2.5rem;
+    font-size: 1.5rem;
+  }
+  .container .p3 {
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+  }
+}
+@media screen and (min-width: 540px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    flex-wrap: nowrap;
+    align-items: center;
+    text-align: center;
+  }
+  .container .p2 {
+    margin-top: 2.5rem;
+    font-size: 2rem;
+  }
+  .container .p3 {
+    margin-bottom: 1.5rem;
+    font-size: 1.2rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    flex-wrap: nowrap;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+  }
+  .container .p1 {
+    margin-bottom: 2rem;
+    margin-top: 4rem;
+  }
+  .container .p2 {
+    margin-top: 0.3rem;
+    font-size: 2rem;
+  }
+  .container .p3 {
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+  }
+  .container .pi {
+    display: inline;
+    font-size: 3.8rem;
+  }
+  .container .pii {
+    display: inline;
+    font-size: 3.8rem;
+  }
+}
+@media screen and (min-width: 820px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    flex-wrap: nowrap;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+  }
+  .container .p1 {
+    margin-bottom: 2rem;
+    margin-top: 4rem;
+  }
+  .container .p2 {
+    margin-top: 0.3rem;
+    font-size: 2rem;
+  }
+  .container .p3 {
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+  }
+  .container .pi {
+    display: inline;
+    font-size: 3.8rem;
+  }
+  .container .pii {
+    display: inline;
+    font-size: 3.8rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .container {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    height: 100vh;
+    justify-content: space-around;
+    text-align: left;
+  }
+  .container img {
+    width: 300px;
+  }
+  .container .p1 {
+    margin-bottom: 2rem;
+    margin-top: 4rem;
+  }
+  .container .p2 {
+    margin-top: 0.5rem;
+    font-size: 2rem;
+  }
+  .container .p3 {
+    margin-bottom: 1.5rem;
+    font-size: 1.2rem;
+  }
+  .container .pi {
+    display: inline;
+    font-size: 4rem;
+  }
+  .container .pii {
+    display: inline;
+    font-size: 4rem;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .container {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    height: 100vh;
+    justify-content: space-around;
+    text-align: left;
+  }
+  .container img {
+    width: 350px;
+  }
+  .container .p1 {
+    margin-bottom: 2rem;
+    margin-top: 4rem;
+  }
+  .container .p2 {
+    margin-top: 0.5rem;
+    font-size: 2rem;
+  }
+  .container .p3 {
+    margin-bottom: 1.5rem;
+    font-size: 1.2rem;
+  }
+  .container .pi {
+    display: inline;
+    font-size: 4rem;
+  }
+  .container .pii {
+    display: inline;
+    font-size: 4rem;
+  }
+}
+@media all and (min-width: 360px) {
+  section {
+    height: 100vh;
+    padding: 1rem 1rem 0rem 1rem;
+    background-size: cover;
+    background-color: white;
+  }
+  section .half-1 {
+    text-align: center;
+  }
+  section .half-1 img {
+    width: 200px;
+  }
+  section .half-2 {
+    margin-bottom: 1rem;
+  }
+  section .half-2 h1 {
+    text-align: center;
+  }
+  .end {
+    margin-top: 0rem;
+  }
+  .end footer {
+    margin-top: 3rem;
+    text-align: center;
+    background-color: rgb(10, 18, 36);
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+  .end footer p {
+    font-size: 0.8rem;
+    color: white;
+    display: inline;
+  }
+  .end footer p strong {
+    color: orange;
+  }
+  .end footer a {
+    color: grey;
+    font-size: 0.8rem;
+    text-decoration: none;
+  }
+  .end footer a:hover {
+    color: white;
+  }
+  .end footer span {
+    color: white;
+  }
+}
+@media all and (min-width: 418px) {
+  section {
+    height: 100vh;
+    padding: 1rem 1rem 0rem 1rem;
+    background-size: cover;
+    background-color: white;
+  }
+  section .half-1 {
+    text-align: center;
+  }
+  section .half-1 img {
+    width: 200px;
+  }
+  section .half-2 {
+    margin-bottom: 1rem;
+  }
+  section .half-2 h1 {
+    text-align: center;
+  }
+  .end {
+    margin-top: 1rem;
+  }
+  .end footer {
+    margin-top: 5rem;
+    text-align: center;
+    background-color: rgb(10, 18, 36);
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+  .end footer p {
+    font-size: 0.8rem;
+    color: white;
+    display: inline;
+  }
+  .end footer p strong {
+    color: orange;
+  }
+  .end footer a {
+    color: grey;
+    font-size: 0.8rem;
+    text-decoration: none;
+  }
+  .end footer a:hover {
+    color: white;
+  }
+}
+@media all and (min-width: 540px) {
+  section {
+    height: 100vh;
+    padding: 1rem 1rem 0rem 1rem;
+    background-size: cover;
+    background-color: white;
+  }
+  section .half-1 {
+    text-align: center;
+  }
+  section .half-1 img {
+    width: 200px;
+  }
+  section .half-2 {
+    margin-bottom: 1rem;
+  }
+  section .half-2 h1 {
+    text-align: center;
+  }
+  .end {
+    margin-top: 0.5rem;
+  }
+  .end footer {
+    margin-top: 3rem;
+    text-align: center;
+    background-color: rgb(10, 18, 36);
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+  .end footer p {
+    font-size: 0.8rem;
+    color: white;
+    display: inline;
+  }
+  .end footer p strong {
+    color: orange;
+  }
+  .end footer a {
+    color: grey;
+    font-size: 0.8rem;
+    text-decoration: none;
+  }
+  .end footer a:hover {
+    color: white;
+  }
+}
+@media all and (min-width: 768px) {
+  section {
+    height: 100vh;
+    padding: 8rem 1rem 0rem 1rem;
+    background-size: cover;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+  }
+  section .half-1 {
+    text-align: center;
+  }
+  section .half-1 img {
+    width: 200px;
+  }
+  section .half-2 {
+    margin-bottom: 1rem;
+    margin-left: 3rem;
+  }
+  section .half-2 h1 {
+    text-align: left;
+  }
+  .end footer {
+    text-align: center;
+    background-color: rgb(10, 18, 36);
+    margin-left: 0rem;
+    margin-right: 0rem;
+    margin-top: 0rem;
+  }
+  .end footer p {
+    font-size: 0.8rem;
+    color: white;
+    display: inline;
+  }
+  .end footer p strong {
+    color: orange;
+  }
+  .end footer a {
+    color: grey;
+    font-size: 0.8rem;
+    text-decoration: none;
+  }
+  .end footer a:hover {
+    color: white;
+  }
+}
+@media all and (min-width: 820px) {
+  section {
+    height: 100vh;
+    padding: 13rem 1rem 0rem 1rem;
+    background-size: cover;
+    background-color: white;
+  }
+  section .half-1 {
+    text-align: center;
+  }
+  section .half-1 img {
+    width: 250px;
+  }
+  section .half-2 {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+  }
+  section .half-2 h1 {
+    text-align: center;
+  }
+  .end {
+    margin-top: 1rem;
+  }
+  .end footer {
+    margin-top: 5rem;
+    text-align: center;
+    background-color: rgb(10, 18, 36);
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+  .end footer p {
+    font-size: 0.8rem;
+    color: white;
+    display: inline;
+  }
+  .end footer p strong {
+    color: orange;
+  }
+  .end footer a {
+    color: grey;
+    font-size: 0.8rem;
+    text-decoration: none;
+  }
+  .end footer a:hover {
+    color: white;
+  }
+}
+@media all and (min-width: 1024px) {
+  section {
+    height: 100vh;
+    padding: 13rem 1rem 0rem 1rem;
+    background-size: cover;
+    background-color: white;
+  }
+  section .half-1 {
+    text-align: center;
+    padding-left: 2rem;
+  }
+  section .half-1 img {
+    width: 250px;
+  }
+  section .half-2 {
+    margin-top: 3rem;
+    margin-right: 3rem;
+    margin-bottom: 1rem;
+    margin-left: 3rem;
+  }
+  section .half-2 h1 {
+    text-align: center;
+  }
+  section .half-2 p {
+    font-size: 1.2rem;
+  }
+  .end {
+    margin-top: 1rem;
+  }
+  .end footer {
+    margin-top: 5rem;
+    text-align: center;
+    background-color: rgb(10, 18, 36);
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+  .end footer p {
+    font-size: 0.8rem;
+    color: white;
+    display: inline;
+  }
+  .end footer p strong {
+    color: orange;
+  }
+  .end footer a {
+    color: grey;
+    font-size: 0.8rem;
+    text-decoration: none;
+  }
+  .end footer a:hover {
+    color: white;
+  }
+}
+@media all and (min-width: 1280px) {
+  section {
+    height: 100vh;
+    padding: 8rem 1rem 0rem 1rem;
+    background-size: cover;
+    background-color: white;
+  }
+  section .half-1 {
+    text-align: center;
+    padding-left: 4rem;
+  }
+  section .half-1 img {
+    width: 250px;
+  }
+  section .half-2 {
+    margin-top: 2.5rem;
+    margin-right: 3rem;
+    margin-bottom: 0rem;
+    margin-left: 3rem;
+    padding-right: 3rem;
+  }
+  section .half-2 h1 {
+    text-align: center;
+  }
+  section .half-2 p {
+    font-size: 1.5rem;
+  }
+  .end {
+    margin-top: 1rem;
+  }
+  .end footer {
+    margin-top: 0rem;
+    text-align: center;
+    background-color: rgb(10, 18, 36);
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+  .end footer p {
+    font-size: 0.8rem;
+    color: white;
+    display: inline;
+  }
+  .end footer p strong {
+    color: orange;
+  }
+  .end footer a {
+    color: grey;
+    font-size: 0.8rem;
+    text-decoration: none;
+  }
+  .end footer a:hover {
+    color: white;
+  }
+}/*# sourceMappingURL=Media-queries.css.map */
